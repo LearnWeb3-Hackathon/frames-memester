@@ -1,0 +1,37 @@
+{
+  "name": "a-frame-in-100-lines",
+  "version": "0.1.1",
+  "scripts": {
+    "build": "rm -rf .next && next build",
+    "dev": "next dev --port 3001",
+    "format": "prettier --log-level warn --write .",
+    "start": "next start -p 3080",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ngrok": "ngrok http 3000"
+  },
+  "keywords": [],
+  "author": "@zizzamia",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.11.0",
+    "@tanstack/react-query": "^5.28.4",
+    "bufferutil": "^4.0.8",
+    "cors": "^2.8.5",
+    "joi": "^17.12.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.4",
+    "next": "13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.32.6",
+    "utf-8-validate": "^6.0.3",
+    "viem": "^2.8.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/react": "18.2.48",
+    "ngrok": "^5.0.0-beta.2",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
